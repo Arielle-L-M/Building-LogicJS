@@ -6,7 +6,7 @@
 
 
 for (let i = 1; i <= 20; i++) { /* 'let i=1' sets the starting variable as 1, 'i <=' sets the loop to run so long as the variable remains less than or equal to 20 while the loop runs, and 'i++' means add 1 to the initail variable every loop that continues until they hit that '<=20' condition*/
-  if (i % 2 === 0) {
+  if (i % 2 === 0) { /*this line is what sets the condition that we get only even numbers, 'i' being the initial variable from the previous line, and '%' acting as a "remainder operator" (I looked that up), that means that any variable divided by 2 in this instance coming back should be perfectly divisible (a zero remaining as the leftover '=== 0'), and that any number that is NOT perfectly divisible (a one remaining as the leftover '=== 1') should be excluded from the final solution*/
     console.log(i);
   }
 }
